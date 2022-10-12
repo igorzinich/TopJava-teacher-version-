@@ -2,16 +2,15 @@
 
 ## <a href="https://drive.google.com/drive/folders/0B9Ye2auQ_NsFfkpsWE1uX19zV19IVHd0bTlDclc5QmhMMm4xa0Npek9DT18tdkwyLTBZdXM">Материалы занятия</a> (скачать все патчи можно через Download папки patch)
 
+### ![correction](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Обновление зависимостей
+#### Apply 2_0_update.patch
+- Обновил версии slf4j и logback на последние. Обычно ищу их в [Maven Central Repository](https://search.maven.org/)
+- Не забудьте сделать `mvn clean` чтобы почистить из `target` старые версии
+
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW1:
 
 - **Перед сборкой проекта (или запуском Tomcat) откройте вкладку Maven Projects и сделайте `clean`**
 - **Если страничка в браузере работает неверно, очистите кэш (`Ctrl+F5` в хроме)**
-
-### ![correction](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Рефакторинг проекта
-
-#### Apply 2_0_update.patch
-- Обновил версии slf4j и logback на последние. Обычно ищу их в [Maven Central Repository](https://search.maven.org/) 
-- Не заббудьте сделать `mvn clean` чтобы почистить из `target` старые версии
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFXzByNVF3VV9zM1k">Отображения списка еды в JSP</a>
 #### Apply 2_1_HW1.patch
