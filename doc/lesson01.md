@@ -23,11 +23,11 @@
 - [Презентация Java 8](https://docs.google.com/presentation/d/1oltLkHK60FqIdsXjUdm4pPLSeC6KpNYjDsM0ips-qBw)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=1K0kan7TEUeOAe_qcdCtRF9rsqD-NwFZ7">Работа с git в IDEA. Реализация через цикл.</a>
-### ВНИМАНИЕ! Патчей `1_opt_2_cycles_HW0` и `1_opt_3_opt2_HW0` не будет в проекте! Делаем в отдельной ветке (у меня `MealsUtil_opt`). Это варианты решений, которые не идут в `master`
+### ВНИМАНИЕ! Патчей `1_opt_2_HW0_cycles` и `1_opt_3_HW0_opt2` не будет в проекте! Делаем в отдельной ветке (у меня `MealsUtil_opt`). Это варианты решений, которые не идут в `master`
 
 ![image](https://user-images.githubusercontent.com/13649199/83656711-8b758b00-a5c8-11ea-9de4-c2ade77d4598.png)
 
-#### Apply 1_opt_2_cycles_HW0.patch
+#### Apply 1_opt_2_HW0_cycles.patch
 
 ### ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Вопросы по HW0
 
