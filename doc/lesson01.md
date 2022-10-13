@@ -84,7 +84,7 @@
 > - [**Деплой war в Tomcat с Application context**](https://github.com/JavaOPs/topjava/wiki/IDEA#Деплой-war-в-tomcat-application-context-должен-быть-тот-же-что-и-url-приложения-деплоить-надо-war-exploded)
 > - [**Динамическое обновление без передеплоя**](https://github.com/JavaOPs/topjava/wiki/IDEA#Для-динамической-перегрузки-ресурсов-кнопка-нажмите-кнопку-update-resource-on-frame-deactivation)
 
-> Если `packge` выдает ошибку
+> Если `maven` выдает ошибку
 ```
 [INFO] --- maven-war-plugin:2.2:war (default-war) @ topjava ---
 [WARNING] Error injecting: org.apache.maven.plugin.war.WarMojo
