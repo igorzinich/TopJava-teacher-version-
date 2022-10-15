@@ -13,6 +13,9 @@ Java Enterprise Online Project
 
 ## <a href="http://topjava.herokuapp.com/" target=_blank>Демо разрабатываемого приложения</a>
 
+Возможно, будет удобнее проходить урок с использованием плагина форматирования страниц, например [Postlight Reader](https://chrome.google.com/webstore/detail/postlight-reader/oknpjjbmpnndlpmnhmekjpocelpnlfdi)
+
+
 Вводное занятие (обязательно смотреть все видео)
 ===============
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFY1ZDNXRCd1NCTG8/view?resourcekey=0-NKNOHbTWXnsZtbe5_8B6Bg">Осваиваем Java Enterprise. Трудоустройство. Ответы на вопросы.</a>
