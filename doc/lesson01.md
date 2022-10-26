@@ -346,3 +346,4 @@ protected void doPost(HttpServletRequest request, ...) {
   - 2 снова заходим в сервлет
   - 3 кладем нужные атрибуты и делаем forward на jsp
   - 4 если очень хочется передать параметры из 1. в 2. можно сделать их через параметры запроса (например `meals?id=5`) и доставать через `reg.getParameter(id)`. В моей реализации такого не потребовалось.
+- 20 Для cancel в JSP можно использовать код: `<button onclick="window.history.back()" type="button">Cancel</button>`
