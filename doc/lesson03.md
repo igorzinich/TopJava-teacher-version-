@@ -136,7 +136,7 @@ GRANT ALL PRIVILEGES ON DATABASE topjava TO "user";
 
 
 [**Основы и руководство по Docker**](https://tproger.ru/translations/how-to-start-using-docker/)   
-[Дополнительно: Docker - понятный туториал](https://badtry.net/docker-tutorial-dlia-novichkov-rassmatrivaiem-docker-tak-iesli-by-on-byl-ighrovoi-pristavkoi/)
+[Docker - понятный туториал](https://badtry.net/docker-tutorial-dlia-novichkov-rassmatrivaiem-docker-tak-iesli-by-on-byl-ighrovoi-pristavkoi/)
 
 
 ##### Для разных ОС установка Docker отличается
