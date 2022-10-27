@@ -10,8 +10,8 @@
 - В ответе на [Why is SELECT * considered harmful?](https://stackoverflow.com/questions/3639861) есть случаи, когда она допустима (наш случай): `when "*" means "a row"`
 
 #### `SpringMain, InMemoryAdminRestControllerTest, InMemoryAdminRestControllerSpringTest` починим в патче `4_7_create_inmemory_test_ctx` (видео 4)
-
-#### **Apply 4_1_HW3.patch**
+[
+#### **Apply 4_1_HW3.patch**]()
 
 ### [Сравнение времени выполнения для разных индексов](meals_index.md)
 - <a href="http://stackoverflow.com/questions/970562/postgres-and-indexes-on-foreign-keys-and-primary-keys">На id как на primary key индекс создается автоматически</a>
@@ -86,7 +86,7 @@
 
 #### **Apply 4_8_add_jpa.patch**
 > - **[Настройка JPA в IDEA](https://github.com/JavaOPs/topjava/wiki/IDEA#jpa).   
-ПРОВЕРЬТЕ, что у вас не подтянулись Java EE 6 libraries, все зависимости в проект попадают только через Maven! Перед настройкой сначала подтяните его зависимости**
+ПРОВЕРЬТЕ, что у вас не подтянулись Java EE libraries, все зависимости в проект попадают только через Maven! Перед настройкой сначала подтяните его зависимости**
 > - `indexes` и `uniqueConstraints` в Entities (у нас `User`) используются только при создании таблицы средствами JPA (автогенерации БД при запуске приложения).
  В случае, если таблицы создаются скриптом, эти опции будут проигнорированы. У нас они дублируют ограничения в `initDB.sql` и будут использоваться, когда мы будем смотреть на автогенерацию DDL по модели на 7-м занятии. 
 > - Тесты и приложение ломаются. `MealServiceTest` починится после выполнения HW04 (`JpaMealRepository`)
@@ -104,15 +104,15 @@
     - [15 reasons why we need to choose Hibernate over JDBC](https://web.archive.org/web/20211201122631/https://habiletechnologies.com/blog/reasons-to-choose-hibernate-over-jdbc/#fin_form_pop)
     - [Hibernate or JDBC](https://stackoverflow.com/questions/1353137/548473)
     -  [Mapping: описание модели Hibernate (hbm.xml/annotation)](http://en.wikibooks.org/wiki/Java_Persistence/Mapping).
-    -  [used in Playframework](https://ru.wikipedia.org/wiki/Hibernate_(библиотека)">Hibernate). Другие ORM: [TopLink](http://en.wikipedia.org/wiki/TopLink), <a href="http://en.wikipedia.org/wiki/EclipseLink">EсlipseLink</a>, <a href="http://en.wikipedia.org/wiki/Ebean">EBean</a> (<a href="http://www.playframework.com/documentation/2.2.x/JavaEbean)).
-    -  [JPA Performance Benchmark](http://ru.wikipedia.org/wiki/Java_Persistence_API">JPA (wiki)</a>. <a href="https://en.wikipedia.org/wiki/Java_Persistence_API">JPA (english wiki)</a>. <a href="http://www.jpab.org/All/All/All.html)
+    -  [used in Playframework](https://ru.wikipedia.org/wiki/Hibernate_(библиотека)">Hibernate). Другие ORM: [TopLink](http://en.wikipedia.org/wiki/TopLink), [EсlipseLink](http://en.wikipedia.org/wiki/EclipseLink)
+    -  [Jakarta Persistence (JPA, english wiki)](https://en.wikipedia.org/wiki/Java_Persistence_API)
     -  [Стратегии генерации PK](http://en.wikibooks.org/wiki/Java_Persistence/Identity_and_Sequencing)
-    -  [JSR-303 -> JSR-349](http://validator.hibernate.org">hibernate-validator</a>. <a href="http://stackoverflow.com/questions/14730329/jpa-2-0-exception-to-use-javax-validation-package-in-jpa-2-0)
+    -  [hibernate-validator](http://validator.hibernate.org).
     -  [Описание связей в модели. Ленивая загрузка объекта.](https://web.archive.org/web/20170514002949/http://java.devcolibri.com:80/post/15)
     -  [JPA definitions](http://docs.jboss.org/hibernate/entitymanager/3.6/reference/en/html/architecture.html#d0e61)
     -  [Spring expressions: выражения в конфигурации](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions)
-    -  [JPQL](https://proselyte.net/tutorials/hibernate-tutorial/hibernate-query-language/">HQL</a>/ <a href="http://ru.wikipedia.org/wiki/Java_Persistence_Query_Language).
-    -  Динамические запросы (которые формируются в коде): [Unified Queries for Java](http://www.objectdb.com/java/jpa/query/criteria">JPA Criteria API</a>. <a href="http://www.querydsl.com/)
+    -  [HQL](https://proselyte.net/tutorials/hibernate-tutorial/hibernate-query-language), [JPQL](http://ru.wikipedia.org/wiki/Java_Persistence_Query_Language)
+    -  Динамические запросы (которые формируются в коде): [Unified Queries for Java](http://www.querydsl.com/), [JPA Criteria API](http://www.objectdb.com/java/jpa/query/criteria)
     -  [Using the Java 8 Date Time Classes with JPA](https://web.archive.org/web/20170608194049/https://bitbucket.org/montanajava/jpaattributeconverters)
 
 #### **Apply 4_9_add_named_query_and_transaction.patch**
