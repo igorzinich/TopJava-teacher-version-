@@ -10,7 +10,7 @@
 - В ответе на [Why is SELECT * considered harmful?](https://stackoverflow.com/questions/3639861) есть случаи, когда она допустима (наш случай): `when "*" means "a row"`
 
 #### `SpringMain, InMemoryAdminRestControllerTest, InMemoryAdminRestControllerSpringTest` починим в патче `4_7_create_inmemory_test_ctx` (видео 4)
-[
+
 #### **Apply 4_1_HW3.patch**]()
 
 ### [Сравнение времени выполнения для разных индексов](meals_index.md)
