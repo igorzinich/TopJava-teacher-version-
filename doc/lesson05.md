@@ -9,6 +9,7 @@
 - [API, ради которых наконец-то стоит обновиться с Java 8 (2)](https://habr.com/ru/post/487636)
 - [Руководство по возможностям Java версий 8-16](https://habr.com/ru/post/551590/)
 
+**ВНИМАНИЕ: патч меняет `pom.xml`. Если у вас JDK>1.8 и вы его меняли самостоятельно - [сверьтесь с репозиторием](https://github.com/JavaOPs/topjava/wiki/git#user-content-compare)**
 #### Apply 5_1_jdk_17.patch
 - [Добавил javax зависимости](https://stackoverflow.com/questions/48204141/replacements-for-deprecated-jpms-modules-with-java-ee-apis)
 - Ошибка при сборке (`mvn package`) решается обновлением `maven-war-plugin` (default версия этого плагина, который привязан к package, для новых JDK не подойдет)
