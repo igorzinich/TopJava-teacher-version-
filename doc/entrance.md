@@ -201,6 +201,7 @@ Java Enterprise Online Project
 - <a href="http://anton.shevchuk.name/jquery/">jQuery для начинающих</a>
 
 #### Java (базовые вещи)
+- [Сборник видео "Изучаем Java"](https://www.youtube.com/playlist?list=PLyxk-1FCKqockmP-fXZmHQ7UlYP3qvZRa)
 - <a href="http://www.intuit.ru/studies/courses/16/16/info">Интуит. Программирование на Java</a>
 - <a href="https://github.com/JavaOPs/masterjava#Первое-занятие-многопоточность">1й урок MasterJava: Многопоточность</a>
 - [Основы Java garbage collection](http://web.archive.org/web/20180831013112/https://ggenikus.github.io/blog/2014/05/04/gc)
