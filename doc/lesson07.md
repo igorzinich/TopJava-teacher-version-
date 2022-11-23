@@ -2,8 +2,6 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfjVnUVhINEg0d09Nb3JsY2ZZZmpsSWp3bzdHMkpKMmtPTlpjckxyVzg0SWc">Материалы занятия</a>
 
-### ![correction](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Правки в проекте
-
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW6
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=1luHTJOXQW-BWyueqsfzzAeiP8lUTZkje">HW6</a>
@@ -331,7 +329,6 @@ JUnit предоставляет нам набор коллбэков — инт
 - [No need `junit-platform-surefire-provider` dependency in `maven-surefire-plugin`](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven)
 - [Наконец пофиксили баг с `@SpringJUnitConfig`](https://youtrack.jetbrains.com/issue/IDEA-166549)
 - Добавил [`junit-platform-launcher` в pom для запуска JUnit 5 тестов из IDEA](https://youtrack.jetbrains.com/issue/IDEA-231927)
-
 - [JUnit 5 homepage](https://junit.org/junit5)
 - [Overview](https://junit.org/junit5/docs/snapshot/user-guide/#overview)
 - [Миграция с JUnit4 на JUnit5: важные отличия и преимущества](https://topjava.ru/blog/migratsiya-s-junit4-na-junit5)
