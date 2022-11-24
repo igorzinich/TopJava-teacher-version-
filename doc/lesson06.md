@@ -886,7 +886,7 @@ Hibernate supports following open-source cache implementations out-of-the-box: E
 ### Optional
 - 2.1 Добавить транзакционность (`DataSourceTransactionManager`) в Jdbc-реализации  
 - 2.2 Добавить еще одну роль к юзеру Admin (будет 2 роли: `USER, ADMIN`).
-- 2.3 В `JdbcUserRepository` добавить реализацию ролей юзера (добавлять можно одним запросом с JOIN и `RowMapper`, либо двумя запросами (отдельно `users` и отдельно `roles`). [Объяснение SQL JOIN](http://www.skillz.ru/dev/php/article-Obyasnenie_SQL_obedinenii_JOIN_INNER_OUTER.html)
+- 2.3 В `JdbcUserRepository` добавить реализацию ролей юзера (добавлять можно одним запросом с JOIN и `ResultSetExtractor/ RowCallbackHandler`, либо двумя запросами (отдельно `users` и отдельно `roles`). [Объяснение SQL JOIN](http://www.skillz.ru/dev/php/article-Obyasnenie_SQL_obedinenii_JOIN_INNER_OUTER.html)
   - 2.3.1 В реализации `getAll` НЕ делать запрос ролей для каждого юзера (N+1 select)
   - 2.3.2 При save посмотрите на <a href="https://www.mkyong.com/spring/spring-jdbctemplate-batchupdate-example/">batchUpdate()</a>
 - 2.4 Добавить проверку ролей в `UserTestData.USER_MATCHER.assertMatch` и починить ВСЕ тесты (тесты должны проходить для юзера с несколькими ролями)  
