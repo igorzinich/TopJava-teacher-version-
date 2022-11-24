@@ -43,7 +43,7 @@ JDBC-тесты мы запускаем с профилем jdbc, но в абс
 
 `<jsp:include page="fragments/headTag.jsp"/>` - в нем определены title страницы, ссылка на статические ресурсы и базовая ссылка на корень приложения.
 
-`<jsp:include page="fragments/boduHeader.jsp"/>` - верхняя часть страниц, в ней определены ссылки для навигации по приложению.  
+`<jsp:include page="fragments/bodyHeader.jsp"/>` - верхняя часть страниц, в ней определены ссылки для навигации по приложению.  
 И в самом низу страниц:  
 `<jsp:include page="fragments/footer.jsp"/>`
 
