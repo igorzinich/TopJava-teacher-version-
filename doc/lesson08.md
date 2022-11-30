@@ -506,9 +506,9 @@ https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/412345/image-1
 
 #### Apply 8_12_add_security.patch
 
-> Обновил версии Spring и Spring Data JPA, не забудьте кнопку *Reload All Maven Projects* и `mvn clean` 
-> Недавно вышла новая версия Spring 6.0, Spring Data JPA 3.0. Они все используют пакет _jakarta_ и включены в недавний релиз Spring Boot 3.0
-> В конце курса мы мигрируем наше приложение на последний Spring Boot 3.0. 
+> Обновил версии Spring и Spring Data JPA, не забудьте кнопку *Reload All Maven Projects* и `mvn clean`   
+> Недавно вышла новая версия Spring 6.0, Spring Data JPA 3.0. Они все используют пакет _jakarta_ и включены в недавний релиз Spring Boot 3.0.
+> В конце курса мы мигрируем наше приложение на последний Spring Boot 3.0   
 
 - <a href="http://projects.spring.io/spring-security/">Spring Security</a>
 - <a href="https://ru.wikipedia.org/wiki/Протокол_AAA">Протокол AAA</a>
