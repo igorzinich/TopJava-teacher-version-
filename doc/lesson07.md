@@ -661,10 +661,7 @@ static или нет.
 
 - 3: Переделать `MealRestController.getBetween` на параметры `LocalDate/LocalTime` c раздельной фильтрацией по времени/дате, работающий при `null` значениях (см. демо и `JspMealController.getBetween`)
   . Заменить `@DateTimeFormat` на свои LocalDate/LocalTime конверторы или форматтеры.
-    - <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#core-convert">Spring Type Conversion</a>
-    - <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#format">Spring Field Formatting</a>
-    - <a href="http://stackoverflow.com/questions/13048368/difference-between-spring-mvc-formatters-and-converters">
-      Difference between Spring MVC formatters and converters</a>
+    -  [Spring Type Conversion and Field Formatting — пишем первый конвертер или форматтер](https://habr.com/ru/post/703402/)
 - 4: Протестировать `MealRestController` (SoapUi, curl, IDEA Test RESTful Web Service, Postman). Запросы `curl` занести в отдельный `md` файл (или `README.md`)
 - 5: Добавить в `AdminRestController` и `ProfileRestController` методы получения пользователя вместе с едой (`getWithMeals`, `/with-meals`).
     - [Jackson – Bidirectional Relationships](https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion)
