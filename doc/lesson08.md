@@ -584,5 +584,5 @@ https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/412345/image-1
  - 5: Ошибка в браузере _DataTables warning: ... Requested unknown parameter ..._ может иметь несколько причин:
    - названия столбца в конфигурации таблицы и поля в json ответе от REST контроллера не совпадают. Проверьте имя в конфигурации DataTable `"columns" [{"data": "..."}, ...` и JSON ответ контроллера 
    - у вас неверный маппинг. При запросе по ajax данных для отрисовки `DataTables` должны приходить JSON данные таблицы, а у вас вместо JSON приходит ,нарпимер, HTML страничка с UI контроллера
-   - неверный формат даты - должен быть `DateTimeFormat.ISO.DATE_TIME` с "T" разделителем
+   - неверный формат даты - должен быть `DateTimeFormat.ISO.DATE_TIME` с "T" разделителем  
 **Смотрим ответ сервера во вкладке _Network_ браузера (F12->Network в Хроме)**  
