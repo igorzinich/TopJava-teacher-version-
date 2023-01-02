@@ -51,6 +51,7 @@ git clone --branch spring_boot --single-branch https://github.com/JavaWebinar/to
 -  Меняем зависимость `jackson-datatype-hibernate5` на `jackson-datatype-hibernate5-jakarta` и в `AppConfig` заменяем `Hibernate5Module` на `Hibernate5JakartaModule`
 -  В security `antMatchers` меняется на `requestMatchers` и нужно явно исключать _swagger-ui_ из авторизации
 -  `ResponseEntityExceptionHandler` теперь поддерживает спецификацию [RFC-7807](https://www.rfc-editor.org/rfc/rfc7807.html) - описание ошибок, перешел на нее в исключениях. В класс описания ошибок ProblemDetail можно добавлять свои поля: в `GlobalExceptionHandler#handleMethodArgumentNotValid()` добавил поле `invalid_params`. Однако при сериализации Jackson через поля, как у нас, в ответе это поле дублируется. Пришлось делать workaround: класс `AppConfig.MixIn`.
+   -  [Spring ProblemDetail and ErrorResponse](https://howtodoinjava.com/spring-mvc/spring-problemdetail-errorresponse/)
 -  В `AdminUserControllerTest` не идут тесты на запросы со слешем в конце. Сделал отдельную переменную `REST_URL_SLASH`
 
 #### Apply 12_2_add_calories_meals
