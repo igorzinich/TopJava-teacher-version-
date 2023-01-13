@@ -71,6 +71,7 @@ _Антуан де Сент-Экзюпери_
     - **[10 Best Practices for Better RESTful API](https://medium.com/@mwaysolutions/10-best-practices-for-better-restful-api-cbe81b06f291)**
     - [REST resource hierarchy](https://stackoverflow.com/questions/20951419/what-are-best-practices-for-rest-nested-resources)
     - [Лучшие практики разработки REST API: правила 1-7,15-17](https://tproger.ru/translations/luchshie-praktiki-razrabotki-rest-api-20-sovetov/)
+    - [Идемпотентость в REST](https://habr.com/ru/post/251669/)
 - 2.5: Разделение на роли я предпочитаю на уровне URL. Сразу и однозначно видно, какой API у админа, какое у пользователя (API админа начинается, например, с */admin/...*).
 - 2.6: На управление (CRUD) ресторанами и едой должны быть ОТДЕЛЬНЫЕ контроллеры. Не надо все, что может админ, сваливать в одну кучу!
 - 2.7: Проверьте в Swagger, что в POST и PUT нет ничего лишнего, а в GET есть все необходимые данные. Например, при запросе голоса должен быть `id` ресторана, а при
