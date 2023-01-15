@@ -134,10 +134,9 @@ GRANT ALL PRIVILEGES ON DATABASE topjava TO "user";
 - Простого и понятного мониторинга.
 - Легкого масштабирования. Если вы сделали свое приложение правильно, то оно будет готово к масштабированию не только в Docker.
 
-
-[**Основы и руководство по Docker**](https://tproger.ru/translations/how-to-start-using-docker/)   
-[Docker - понятный туториал](https://badtry.net/docker-tutorial-dlia-novichkov-rassmatrivaiem-docker-tak-iesli-by-on-byl-ighrovoi-pristavkoi/)
-
+[**Основы и руководство по Docker**](https://tproger.ru/translations/how-to-start-using-docker/)  
+[Docker - понятный туториал](https://badtry.net/docker-tutorial-dlia-novichkov-rassmatrivaiem-docker-tak-iesli-by-on-byl-ighrovoi-pristavkoi/)  
+[Видео Основы Docker от Артема Матяшова](https://www.youtube.com/watch?v=QF4ZF857m44)
 
 ##### Для разных ОС установка Docker отличается
 - для [Windows без поддержки Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements) требуется Docker Toolbox,
